@@ -46,7 +46,7 @@ a:active {
 .navigation {
     position: relative;
     overflow: hidden;
-    background-color: #f0b4f0
+    background-color: #90deff
 }
 
 .navigation a {
@@ -57,7 +57,7 @@ a:active {
   }
 
 .showing {
-    background-color:#f050f0
+    background-color:#48c8ff
 }
 
 .start-image {
