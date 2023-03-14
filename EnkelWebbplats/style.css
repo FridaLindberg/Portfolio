@@ -1,0 +1,90 @@
+body {
+    margin: 0em;
+    color:black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    margin-left: 1em;
+}
+
+.text-center {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-right {
+    float: right
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: black
+}
+a:hover {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+}
+a:active {
+    color:rgb(75, 75, 75);
+}
+
+.navigation {
+    position: relative;
+    overflow: hidden;
+    background-color: #f0b4f0
+}
+
+.navigation a {
+    float: left;
+    text-align: center;
+    padding: 18px 18px;
+    font-size: 24px;
+  }
+
+.showing {
+    background-color:#f050f0
+}
+
+.start-image {
+    margin-left: 1em;
+    border-radius: 50%;
+    width: 10em;
+}
+
+.header-image {
+    width: 100%;
+    height: 5em;
+}
+
+/*https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
